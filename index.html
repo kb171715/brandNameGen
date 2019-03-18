@@ -2,18 +2,47 @@
 <html>
 <head>
 	<title>Create your brand name</title>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 	<h1>Create brand name</h1>
 
-	<p>There are 5 types of brand names</p>
-<button onclick="mixer()">click</button>
+	<p>There are 7 types of brand names</p>
+
+<ol>
+  <li>Eponymous</li>
+  <p>Give your own name, in case you have big enough ego</p>
+  <li>Descriptive name</li>
+  <p>Like American airline</p>
+  <li>Acronomyc</li>
+  <p>In case you want to hide true first impresion about your product</p>
+  <li>Suggestive: real, composite or invented</li>
+  <p>with real will be hard with copyrights, composite way easier, and with invented - easiest</p>
+  <li>Associative</li>
+  <p>Describe your brand with something like Amazon. The biggest river is also the biggest retailer</p>
+  <li>Also non English words</li>
+  <p>Samsung, Lego and so on..</p>
+  <li>Abstract</li>
+  <p>Rolex, Kodak.. takes power from phonetics</p>
+</ol>
+
+<p>Decide what you want the name to say</p>
+
+  <div class="container-fluid">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+      <div class="col-sm-6" style="background-color:grey;">
+        <h3>Some help with abstract names</h3>
+  <button onclick="mixer()">click</button>
 
 
-	<h3>First type</h3>
-
-	 <table class="table table-bordered">
+   <table class="table table-bordered">
     <tbody>
    
       <tr>
@@ -47,7 +76,22 @@
          <td id="section63"></td>
       </tr>
     </tbody>
-  </table>
+  </table></div>
+      <div class="col-sm-6" style="background-color:#74B2F0;">
+        <p>Some help with suggestive name</p>
+<button onclick="inputMix()">Try it</button>
+
+<p id="inputMix1"></p>
+<p id="inputMix2"></p>
+<p id="inputMix3"></p>
+<p id="inputMix4"></p></div>
+    </div>
+
+	
+
+
+
+
 
 
 <script src="mix.js"></script>
