@@ -43,10 +43,10 @@ function inputMix() {
 
     var newName = brandName.split(" ");
 
-    document.getElementById("inputMix1").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length]+newName[Math.round(1000 * Math.random()) % newName.length];
-    document.getElementById("inputMix2").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length]+newName[Math.round(1000 * Math.random()) % newName.length];
-    document.getElementById("inputMix3").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length]+newName[Math.round(1000 * Math.random()) % newName.length];
-    document.getElementById("inputMix4").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length]+newName[Math.round(1000 * Math.random()) % newName.length];
+    document.getElementById("inputMix1").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length].toUpperCase()+newName[Math.round(1000 * Math.random()) % newName.length];
+    document.getElementById("inputMix2").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length].toUpperCase()+newName[Math.round(1000 * Math.random()) % newName.length];
+    document.getElementById("inputMix3").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length].toUpperCase()+newName[Math.round(1000 * Math.random()) % newName.length];
+    document.getElementById("inputMix4").innerHTML = newName[Math.round(1000 * Math.random()) % newName.length].toUpperCase()+newName[Math.round(1000 * Math.random()) % newName.length];
   
   }
 };
